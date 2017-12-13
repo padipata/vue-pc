@@ -1,0 +1,32 @@
+{
+  "name": "YDMF",
+  "version": "1.0.0",
+  "description": "易道魔方家具定制",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack-dev-server --config webpack.dev.js --open"
+  },
+  "author": "liripeng linlif",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^2.0.0",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.4.5",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.7.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.17.0",
+    "uglifyjs-webpack-plugin": "^1.1.0",
+    "url-loader": "^0.5.9",
+    "webpack": "^2.0.0",
+    "webpack-dev-server": "^1.16.5",
+    "webpack-hot-middleware": "^2.21.0",
+    "webpack-merge": "^4.1.1"
+  },
+  "dependencies": {
+    "vue": "^2.5.9"
+  }
+}

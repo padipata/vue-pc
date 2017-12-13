@@ -1,0 +1,83 @@
+body,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+label,
+table,
+tr,
+th,
+td,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1;
+    min-width: 1200px;
+    width: 100%;
+    font: 14px/1.5 "Helvetica Neue", Helvetica, "Microsoft Yahei", "Hiragino Sans GB", Arial, "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+    color: #000;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #4FA3FF;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    border: none;
+}
+
+label {
+    cursor: pointer;
+}
+
+input {
+    border: 0;
+    outline: none;
+}
+
+input[type='checkbox'] {
+    cursor: pointer;
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+textarea {
+    border: 0;
+    outline: none;
+}
